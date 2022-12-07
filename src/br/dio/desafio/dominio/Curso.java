@@ -1,17 +1,14 @@
-package br.com.dio.desafio.dominio;
+package br.dio.desafio.dominio;
 
 public class Curso {
-    @Override
-    public String toString() {
-        return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
-    }
+
     private String titulo;
     private String descricao;
     private int cargaHoraria;
-   
-   
-   
-   
+
+
+
+    
     public String getTitulo() {
         return titulo;
     }
@@ -30,6 +27,11 @@ public class Curso {
     public void setCargaHoraria(int cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
+    @Override
+    public String toString() {
+        return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
+    }
 
+    
     
 }
