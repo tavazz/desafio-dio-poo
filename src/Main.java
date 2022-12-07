@@ -7,6 +7,7 @@ public class Main {
 
 
         Curso curso1 = new Curso();
+        curso1.setTitulo(" Java ");
         System.out.println(curso1);
         
     }
