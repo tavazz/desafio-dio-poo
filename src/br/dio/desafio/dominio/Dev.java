@@ -30,7 +30,10 @@ public class Dev {
         }
     }
 
-    public void calcularTotalXp(){
+    public double calcularTotalXp(){
+
+        return 
+        this.conteudosConcluidos.stream().mapToDouble(Conteudo::calcularXp).sum();
         
     }
 
